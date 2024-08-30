@@ -1,9 +1,12 @@
 
 const Display = () => {
   return (
-    <div className="bg-gradient-to-r from-orange-500 to-pink-500 text-white p-4 rounded-lg text-right">
+    <div className="bg-yellow-300 " >
+        <div className="bg-gradient-to-r from-pink-500 to-orange-400 text-white p-10  rounded-t-md  text-right">
+
         <div>23444</div>
         <div>1999 - 30%</div>
+        </div>
     </div>
   )
 }
