@@ -1,12 +1,9 @@
 
-const Display = () => {
+const Display = ({value,prevCalculation }) => {
   return (
-    <div className="bg-yellow-300 " >
-        <div className="bg-gradient-to-r from-pink-500 to-orange-400 text-white p-10  rounded-t-md  text-right">
-
-        <div>23444</div>
-        <div>1999 - 30%</div>
-        </div>
+     <div className="bg-gradient-to-r from-pink-500 to-orange-400 text-white p-10 rounded-t-md   text-right">
+        <div>{value}</div>
+        <div>{prevCalculation}</div>
     </div>
   )
 }
